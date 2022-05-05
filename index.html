@@ -15,50 +15,197 @@
 	<link href="./index.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="https://www.sncf.com/themes/sncfcom/img/favicon.png"/>
     </script>
+    </head>
 
-	</head>
-	<body>
-		<header>
-			<a href="#"><img id="#logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Sncf-logo.svg" width="100" height="50"/></a>
-			<div class="container">
-					<div class="centered-element"  align="center">
-						<H1>Reserver votre billet de train</H1>
-						<div class="top">
-							<!-- <h1>Liste des trains</h1>
-							<h2>Liste la totalité des trains</h2>  -->
-						</div>
-						<div class="bottom first_bottom">
-							<depuis>
-								<h3>Depuis</h3>
-								<input class="rainbow" placeholder="Gare de depart">
-							</depuis>
+    <body>
+	
+        <nav class="topnav">
+            
+            <img class="sncf" src="./Interface Trains_files/logo_sncf.png">
+            <a class="horaires">Horaires</a>
+            <a class="personnel">
+				Personnel
+				<svg width="13" height="8" viewBox="0 0 18 8">
+                    <path d="M9 8L0.339745 0.5L17.6603 0.5L9 8Z" fill="white"></path>
+                </svg>
+			</a>
+
+            <div class="menu">
+                <a class="menu-buttons" id="trains"> </a>
+                <a class="menu-buttons" id="ajouter"> </a>
+                <a class="menu-buttons" id="personnels"> </a>
+            </div>
+
+        </nav>
+        
+        <div class="main">
+
+
+            <container class="first">
+                <div class="top">
+                    <h1>Liste des trains</h1>
+                    <h2>Liste la totalité des trains</h2>
+                </div>
+                <div class="bottom first_bottom">
+                    <depuis>
+                        <h3 class="">Depuis</h3>
+                        <input class="" placeholder="Gare de depart">
+                    </depuis>
+
+                    <jusque>
+                        <h3 class="">Jusqu'a</h3>
+                        <input class="" placeholder="Gare d&#39;arrivee">
+                    </jusque>
+
+                    <date>
+                        <h3 class="">Date</h3>
+                        <input class="" placeholder="jj/mm/aaaa">
+                    </date>
+
+                    <debut>
+                        <h3 class="">Heure (debut)</h3>
+                        <input class="" placeholder="00:00">
+                    </debut>
+
+                    <fin>
+                        <h3 class="">Heure (fin)</h3>
+                        <input class="" placeholder="00:00">
+                    </fin>
+
+                    <input class="rechercher" type="button" value="Rechercher">
+                </div>
+            </container>
+
+            <container class="secondth">
+                <div class="top">
+                    <h1>Voici les horaires de trains</h1>
+                    <h2>En provenance de la gare X</h2>
+                </div>
+                <div class="bottom">
+                    <table class="tab">
+                        <thead>
+                            <tr>
+                            
+                                <th class="cellules_main">NUMERO</th>
+                                <th class="cellules_main">TYPE</th>
+                                <th class="cellules_main">DEPART</th>
+                                <th class="cellules_main">ARRIVEE</th>
+                                <th class="cellules_main">HEURE DE DEPART</th>
+                                <th class="cellules_main">HEURE D'ARRIVEE</th>
+                                <th class="cellules_main">VOIE</th>
+                                <th class="cellules_main">PLACES</th>
+                                <th class="cellules_main">PRIX</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            
+                                <td class="cellules">NUMERO</td>
+                                <td class="cellules">TYPE</td>
+                                <td class="cellules">DEPART</td>
+                                <td class="cellules">ARRIVEE</td>
+                                <td class="cellules">HEURE DE DEPART</td>
+                                <td class="cellules">HEURE D'ARRIVEE</td>
+                                <td class="cellules">VOIE</td>
+                                <td class="cellules">PLACES</td>
+                                <td class="cellules">PRIX</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </container>
+
+
+
+            <!-- <div class="first">
+                <top>
+                    <h1>1Liste des trains</h1>
+                    <br>
+                    <h2>Liste la totalité des trains</h2>
+                </top>
+            </div>
+            
+            <div class="secondth">
+                <top>
+                    <h1>2Voici les horaires de trains</h1>
+                    <br>
+                    <h2>En provenance de la gare X</h2>
+                </top>
+
+                <table class="tab">
+
+                    <tr>
+                    
+                        <th class="cellules_main">NUMERO</td>
+                        <th class="cellules_main">TYPE</td>
+                        <th class="cellules_main">DEPART</td>
+                        <th class="cellules_main">ARRIVEE</td>
+                        <th class="cellules_main">HEURE DE DEPART</td>
+                        <th class="cellules_main">HEURE D'ARRIVEE</td>
+                        <th class="cellules_main">VOIE</td>
+                        <th class="cellules_main">PLACES</td>
+                        <th class="cellules_main">PRIX</td>
+                        
+                    </tr>
+                    
+                    <tr>
+                    
+                        <th class="cellules_main">NUMERO</td>
+                        <th class="cellules_main">TYPE</td>
+                        <th class="cellules_main">DEPART</td>
+                        <th class="cellules_main">ARRIVEE</td>
+                        <th class="cellules_main">HEURE DE DEPART</td>
+                        <th class="cellules_main">HEURE D'ARRIVEE</td>
+                        <th class="cellules_main">VOIE</td>
+                        <th class="cellules_main">PLACES</td>
+                        <th class="cellules_main">PRIX</td>
+                        
+                    </tr>
+
+                </table>
+            </div> -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        </div>
 		
-							<jusque>
-								<h3>Jusqu'a</h3>
-								<input class="rainbow"  placeholder="Gare d&#39;arrivee">
-							</jusque>
+		<script src="./Interface Trains_files/script.js.téléchargement"></script>
 		
-							<date>
-								<h3 >Date</h3>
-								<input class="rainbow" type="date" placeholder="jj/mm/aaaa">
-							</date>
-		
-							<debut>
-								<h3>Heure (debut)</h3>
-								<input class="rainbow" type="time" placeholder="00:00">
-							</debut>
-		
-							<fin>
-								<h3>Heure (fin)</h3>
-								<input class="rainbow" type="time" placeholder="00:00">
-							</fin>
-							<br>
-							<br>
-							<input class="rainbow" class="rechercher" type="button" value="Rechercher">
-						</div>
-						
-					</div>
-			</div>
-		</header>
-	</body>
-</html>
+    
+</body></html>
