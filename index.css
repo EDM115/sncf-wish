@@ -4,6 +4,13 @@ body {
     background-size: cover;
 }
 
+:root {
+    --height_menu : 0 ;
+    --menu_shadow : 0 ;
+    --menu_buttons : hidden ;
+    --z_menu : 0 ;
+}
+
 #logo {
     padding: 25px 25px 25px 50px;
 }
@@ -33,4 +40,144 @@ body {
 
 input::placeholder {
     text-align: center;
-  }
+}
+
+h1 {
+    color: black;
+    font-weight: 400 ;
+    font-size: 25px ;
+}
+
+h2 {
+    color : black;
+    font-weight: 400 ;
+    font-style: italic ;
+    font-size: 20px ;
+}
+
+h3 {
+    color : black;
+    font-weight: 300 ;
+    font-size: 18px ;
+}
+
+.topnav {
+    position : fixed ;
+    align-items: center ;
+    top : 0 ;
+    width : 100% ;
+    height : 100px ;
+    z-index : 700 ;
+    background: #060c23e0 ;
+}
+
+boutons {
+    position: relative ;
+    display: flex ;
+    height: 100% ;
+    width: 20%;
+    margin-left: 2%;
+}
+
+#sncf {
+    width: 120px ;
+    height: 63px ;
+}
+
+.bouton {
+    display: block ;
+    white-space: nowrap ;
+    padding: 1vh ;
+    margin: auto ;
+    z-index : 900 ;
+    cursor: pointer ;
+    user-select : none ;
+    font-family: 'M PLUS 1' , sans-serif ;
+    text-decoration: none ;
+    color: rgba(255, 255, 255, 0.7) ;
+    font-size: 20px ;
+    transition: .5s ;
+}
+
+.bouton:hover {
+    color: white ;
+}
+
+.fleche {
+    fill : rgba(255, 255, 255, 0.7) ;
+}
+
+.fleche:hover {
+    fill : white ;
+}
+
+.menu {
+    position : fixed ;
+    z-index : 950 ;
+    top : 80px ;
+    left : 300px ;
+    height: var(--height_menu) ;
+    width: 200px ;
+
+    border-color: #5271e0e0 ;
+    border-width : 3px ;
+    border-radius : 5px ;
+    background-color: #060c23e0 ;
+    box-shadow: 0 0 20px 1px var(--menu_shadow) ;
+    font-family: 'M PLUS 1' , sans-serif;
+    color: white ;
+    font-size: 17px;
+}
+
+.menu-buttons {
+    display: block ;
+    cursor: pointer ;
+    padding: 5% ;
+    visibility: var(--menu_buttons);
+}
+
+.main {
+    display: flex ;
+    background-color : white ;
+    border-radius : 20px ;
+    width:70%;
+    margin : 0 auto ;
+    margin-top: 200px ;
+    align-content: center ;
+    flex-direction: column ;
+}
+
+.top {
+    background-color: #e9e9e9 ;
+}
+
+.bottom {
+    background: white;
+}
+
+.first_bottom {
+    align-items: flex-end;
+}
+
+.tab {
+    border: solid black 1px ;
+}
+
+thead {
+    background-color: #cfcfcf;
+    font-size: 12px ;
+    text-align: center;
+    border: solid black 1px ;
+}
+
+.cellules_main{
+    font-size: 12px ;
+    text-align: center;
+    border: solid black 1px ;
+}
+
+.cellules {
+    font-size: 10px ;
+    text-align: center;
+    border: solid black 1px ;
+}
