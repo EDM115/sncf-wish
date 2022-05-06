@@ -4,12 +4,6 @@ body {
     background-size: cover;
 }
 
-:root {
-    --height_menu : 0 ;
-    --menu_shadow : 0 ;
-    --menu_buttons : hidden ;
-    --z_menu : 0 ;
-}
 
 #logo {
     padding: 25px 25px 25px 50px;
@@ -63,14 +57,15 @@ h3 {
 
 .topnav {
     position: sticky;
-    top: 20px;
+    padding: 20px;
     align-items: center ;
     width : 100% ;
     height : 100px ;
     z-index : 700 ;
+    filter: blur(4px);
 }
 
-boutons {
+.boutons {
     position: relative ;
     display: flex ;
     height: 100% ;
@@ -100,14 +95,6 @@ boutons {
 
 .bouton:hover {
     color: white ;
-}
-
-.fleche {
-    fill : rgba(255, 255, 255, 0.7) ;
-}
-
-.fleche:hover {
-    fill : white ;
 }
 
 .menu {
