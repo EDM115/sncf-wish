@@ -14,6 +14,8 @@ body {
     margin: auto auto;
     border-radius: 30px;
     padding: 10px;
+    position: relative;
+    top: 40px
 }
 
 .centered-element{
@@ -102,7 +104,6 @@ h3 {
     left : 300px ;
     height: var(--height_menu) ;
     width: 200px ;
-
     border-color: #5271e0e0 ;
     border-width : 3px ;
     border-radius : 5px ;
