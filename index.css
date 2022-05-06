@@ -15,13 +15,14 @@ body {
     padding: 25px 25px 25px 50px;
 }
 
+
 .container {
     width: 80%;
     height: 80%;
-    /* border: 1px black solid; */
-    background-color: #f7f9f998;
+    /*background-color: #f7f9f998;*/
     margin: auto auto;
     border-radius: 30px;
+    padding: 1em;
 }
 
 .centered-element{
@@ -62,9 +63,9 @@ h3 {
 }
 
 .topnav {
-    position : fixed ;
+    position: sticky;
+    top: 20px;
     align-items: center ;
-    top : 0 ;
     width : 100% ;
     height : 100px ;
     z-index : 700 ;
