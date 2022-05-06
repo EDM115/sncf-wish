@@ -8,10 +8,6 @@ body {
     padding: 0;
 }
 
-.menu {
-    flex: 1;
-}
-
 .container {
     width: 80%;
     height: 80%;
@@ -20,6 +16,7 @@ body {
     padding: 10px;
     position: relative;
     top: 40px
+    background-color: #f7f9f998;
 }
 
 .centered-element{
