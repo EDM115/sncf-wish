@@ -36,25 +36,6 @@ input::placeholder {
     text-align: center;
 }
 
-h1 {
-    color: black;
-    font-weight: 400 ;
-    font-size: 25px ;
-}
-
-h2 {
-    color : black;
-    font-weight: 400 ;
-    font-style: italic ;
-    font-size: 20px ;
-}
-
-h3 {
-    color : black;
-    font-weight: 300 ;
-    font-size: 18px ;
-}
-
 .topnav {
     position: sticky;
     padding: 20px;
@@ -65,62 +46,6 @@ h3 {
     backdrop-filter: blur(4px);
     display: inline-block
 }
-
-.boutons {
-    position: relative ;
-    display: flex ;
-    height: 100% ;
-    width: 20%;
-    margin-left: 2%;
-}
-
-#sncf {
-    width: 120px ;
-    height: 63px ;
-}
-
-.bouton {
-    display: block ;
-    white-space: nowrap ;
-    padding: 1vh ;
-    margin: auto ;
-    z-index : 900 ;
-    cursor: pointer ;
-    user-select : none ;
-    font-family: 'M PLUS 1' , sans-serif ;
-    text-decoration: none ;
-    color: rgba(255, 255, 255, 0.7) ;
-    font-size: 20px ;
-    transition: .5s ;
-}
-
-.bouton:hover {
-    color: white ;
-}
-
-/*.menu {
-    position : fixed ;
-    z-index : 950 ;
-    top : 80px ;
-    left : 300px ;
-    height: var(--height_menu) ;
-    width: 200px ;
-    border-color: #5271e0e0 ;
-    border-width : 3px ;
-    border-radius : 5px ;
-    background-color: #060c23e0 ;
-    box-shadow: 0 0 20px 1px var(--menu_shadow) ;
-    font-family: 'M PLUS 1' , sans-serif;
-    color: white ;
-    font-size: 17px;
-}
-
-.menu-buttons {
-    display: block ;
-    cursor: pointer ;
-    padding: 5% ;
-    visibility: var(--menu_buttons);
-}*/
 
 .main {
     display: flex ;
