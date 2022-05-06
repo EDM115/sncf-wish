@@ -63,6 +63,7 @@ h3 {
     height : 100px ;
     z-index : 700 ;
     backdrop-filter: blur(4px);
+    display: inline-block
 }
 
 .boutons {
