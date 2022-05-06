@@ -39,12 +39,12 @@ input::placeholder {
 .topnav {
     position: sticky;
     padding: 20px;
-    align-items: center ;
+    /*align-items: center ;*/
     width : 100% ;
-    height : 100px ;
+    height : 50px ;
     z-index : 700 ;
     backdrop-filter: blur(4px);
-    display: inline-block;
+    display: flex;
 }
 
 .main {
