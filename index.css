@@ -11,7 +11,6 @@ body {
 .container {
     width: 80%;
     height: 80%;
-    /*background-color: #f7f9f998;*/
     margin: auto auto;
     border-radius: 30px;
     padding: 10px;
@@ -96,7 +95,7 @@ h3 {
     color: white ;
 }
 
-.menu {
+/*.menu {
     position : fixed ;
     z-index : 950 ;
     top : 80px ;
@@ -119,7 +118,7 @@ h3 {
     cursor: pointer ;
     padding: 5% ;
     visibility: var(--menu_buttons);
-}
+}*/
 
 .main {
     display: flex ;
