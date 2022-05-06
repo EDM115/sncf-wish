@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+.menu {
+    flex: 1;
+}
+
 .container {
     width: 80%;
     height: 80%;
